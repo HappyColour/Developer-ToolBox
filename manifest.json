@@ -1,0 +1,31 @@
+{
+  "name": "Developer-ToolBox",
+  "version": "1.0",
+  "description": "The Summary Of Developer Tools, such as Json tools、code beautification、code compression、QR code、Postman、markdown、web oil monkey、note notes、information encryption and decryption、random password generation、Crontab etc",
+  "permissions": ["activeTab", "declarativeContent", "contextMenus", "storage"],
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "The Summary Of Developer Tools, such as Json tools、code beautification、code compression、QR code、Postman、markdown、web oil monkey、note notes、information encryption and decryption、random password generation、Crontab etc"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/promise.png",
+      "32": "images/promise.png",
+      "48": "images/promise.png",
+      "128": "images/promise.png"
+    }
+  },
+  "icons": {
+    "16": "images/promise.png",
+    "32": "images/promise.png",
+    "48": "images/promise.png",
+    "128": "images/promise.png"
+  },
+  "manifest_version": 2
+}
