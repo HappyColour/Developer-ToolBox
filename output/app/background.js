@@ -1,0 +1,1 @@
+"use strict";console.log("chrome",chrome),console.log("runtime",chrome.runtime);

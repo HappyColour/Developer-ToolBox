@@ -6,4 +6,6 @@
 
 console.log('chrome', chrome)
 console.log('runtime', chrome.runtime)
-console.log('currentURL', chrome.runtime.getURL())
+// if(chrome.runtime.getURL()) {
+//   console.log('currentURL', chrome.runtime.getURL())
+// }
